@@ -1,0 +1,8 @@
+# Exercise 1
+| Test Case  | Expected Results   | Actual Results  | Verdict(Pass,Fail,Inconclusive)  |   
+|------|------|------|------|
+|  1 | accepted  | accepted <br> ![image](Assets/TC1(1).PNG) <br> ![image](Assets/TC1(2).PNG)| Pass   |   |
+|  1 | accepted  | accepted <br> ![image](Assets/TC1(1).PNG) <br> ![image](Assets/TC1(2).PNG)| Pass   |   |
+|  1 | accepted  | accepted <br> ![image](Assets/TC1(1).PNG) <br> ![image](Assets/TC1(2).PNG)| Pass   |   |
+|  1 | accepted  | accepted <br> ![image](Assets/TC1(1).PNG) <br> ![image](Assets/TC1(2).PNG)| Pass   |   |
+|  1 | accepted  | accepted <br> ![image](Assets/TC1(1).PNG) <br> ![image](Assets/TC1(2).PNG)| Pass   |   |
