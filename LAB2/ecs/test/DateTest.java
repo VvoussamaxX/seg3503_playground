@@ -96,33 +96,34 @@ class DateTest {
   
   @Test
   void test16(){
-      assertThrows(IllegalArgumentException.class, ()->{new Date(1500, 2, 31).nextDate();}, "Le mois de Février compte 28 jours pour une année non bissextile et 29 jours pour une année bissextile.");
+      assertThrows(IllegalArgumentException.class, ()->{new Date(1500, 2, 31).nextDate();}, 
+      "Le mois de Février compte 28 jours pour une année non bissextile et 29 jours pour une année bissextile.");
   }
   
   @Test
   void test17(){
-      assertThrows(IllegalArgumentException.class, ()->{new Date(1500, 2, 29).nextDate();}, "Le mois de Février compte 28 jours pour une année non bissextile et 29 jours pour une année bissextile.");
+      assertThrows(IllegalArgumentException.class, ()->{new Date(1500, 2, 29).nextDate();}, 
+      "Le mois de Février compte 28 jours pour une année non bissextile et 29 jours pour une année bissextile.");
   }
   
   @Test
   void test18(){
-      assertThrows(IllegalArgumentException.class, ()->{new Date(-1, 10, 20).nextDate();}, "L'intervalle pour l'an est : year>=0.");
+      assertThrows(IllegalArgumentException.class, ()->{new Date(-1, 10, 20).nextDate();}, 
+      "L'intervalle pour l'an est : year>=0.");
   }
   
   @Test
   void test19(){
-      assertThrows(IllegalArgumentException.class, ()->{new Date(1458, 15, 12).nextDate();}, "l'intervalle pour le mois est : 1<= month <= 12.");
+      assertThrows(IllegalArgumentException.class, ()->{new Date(1458, 15, 12).nextDate();}, 
+      "l'intervalle pour le mois est : 1<= month <= 12.");
   }
   
   @Test
   void test20(){
-      assertThrows(IllegalArgumentException.class, ()->{new Date(1975, 6, -50).nextDate();}, "L'intervalle pour le jour est : 1 <= day <= 31.");
+      assertThrows(IllegalArgumentException.class, ()->{new Date(1975, 6, -50).nextDate();}, 
+      "L'intervalle pour le jour est : 1 <= day <= 31.");
   }
 
-  /**
-   * @param date
-   * @param date2
-   */
   private void assertDate(Date date, Date date2)
   {
   	assertEquals(date + "", date2.toString());
