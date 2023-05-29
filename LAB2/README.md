@@ -1,7 +1,7 @@
 # Exercise 1
 | Test Case  | Expected Results   | Actual Results  | Verdict(Pass,Fail,Inconclusive)  |   
 |------|------|------|------|
-|  1 | accepted  | accepted <br> ![image](Images/Oussama_1.PNG) <br> ![image](Images/Oussama_2.PNG)| Pass   |   |
+|  1 | accepted  | accepted <br> ![image](Images/Oussama_1.png) <br> ![image](Images/Oussama_2.png)| Pass   |   |
 |  2 | accepted  | accepted <br> ![image](Images/Yahya_1.PNG) <br> ![image](Images/Yahya_2.PNG)| Pass   |   |
 |  3 | accepted  | accepted <br> ![image](Images/Abdou_1.PNG) <br> ![image](Images/Abdou_2.PNG)| Pass   |   |
 |  4 | accepted  | accepted <br> ![image](Images/XXXXXX_1.PNG) <br> ![image](Images/XXXXXX_2.PNG)| Pass   |   |
