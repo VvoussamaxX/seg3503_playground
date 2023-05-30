@@ -29,8 +29,7 @@ public static List<Object[]> data( )
     return params;
 }
 
-public void testDate(){
+public void testDate() {
     System.out.println(expectedResult);
 }
-
 }

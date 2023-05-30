@@ -39,8 +39,8 @@ public static List<Date[]> data( )
 }
 
 public void testDate(){
-    assertEquals(expectedResult, date);
-
+    Date actualDate = date.nextDate();
+    assertEquals(expectedResult, actualDate);
 }
 
 }
