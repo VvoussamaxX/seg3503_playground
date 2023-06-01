@@ -20,7 +20,7 @@ After adding my tests
  <br> ![image](Images/two.png) <br>
   <br> ![image](Images/three.png) <br>
 Typical explicit test case that doesn't use exceptions:
- <br> ![image](Images/six.png) <br>
+ <br> ![image](Images/Six.png) <br>
 Explicit test cases that have exceptions:
   <br> ![image](Images/Seven.png) <br>
 Parameterized test values for test cases that run OK and return a Date.
