@@ -1,5 +1,6 @@
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.experimental.theories.suppliers.TestedOn;
 import org.junit.jupiter.api.Test;
 
 class DateTest {
@@ -149,4 +150,83 @@ class DateTest {
     );
   }
 
+  @Test
+  void additional_test_1(){
+    
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1975, 6, 32)
+    );
+  }
+  @Test
+  void additional_test_2(){
+    
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(1975, 6, 31)
+    );
+  }
+  @Test
+  void additional_test_3(){
+    
+    assertThrows(
+      IllegalArgumentException.class,
+      () -> new Date(2020, 2, 30)
+    );
+  }
+  @Test
+  void additional_test_4(){
+    Date today = new Date(3456, 12, 31);
+    assertEquals("3456/December/31", today.toString());
+  }
+  @Test
+  void additional_test_5(){
+    Date today = new Date(2000, 12, 31);
+    assertEquals(true, today.isLeapYear());
+  }
+  @Test 
+  void additional_test_6(){
+    Date today = new Date(2020, 2, 28);
+    Date Tomorrow = new Date(2020, 2, 29);
+    assertEquals(Tomorrow, today.nextDate());
+  }
+  @Test 
+  void additional_test_7(){
+    
+    Date today = new Date(2021, 6, 30);
+    assertEquals(false, today.equals(new Object()));
+
+  }
+  @Test 
+  void additional_test_8(){
+    
+    Date today = new Date(2021, 6, 30);
+    assertEquals(true, today.equals(new Date(2021,6,30)));
+  }
+  @Test 
+  void additional_test_9(){
+    
+    Date today = new Date(2021, 6, 30);
+    assertEquals(false, today.equals(new Date(2022, 6, 30)));
+
+  }
+  @Test 
+  void additional_test_10(){
+    
+    Date today = new Date(2021, 6, 30);
+    assertEquals(false, today.equals(new Date(2021, 7, 30)));
+
+  }
+  @Test 
+  void additional_test_11(){
+    
+    Date today = new Date(2021, 6, 30);
+    assertEquals(false, today.equals(new Date(2021, 6, 20)));
+  }
+  @Test 
+  void additional_test_12(){
+    Date today = new Date(2020, 9, 2);
+    Date Tomorrow = new Date(2020, 9, 3);
+    assertEquals(Tomorrow, today.nextDate());
+  }
 }
