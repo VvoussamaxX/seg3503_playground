@@ -11,7 +11,7 @@
 |  8 | Error  | Error <br> ![image](Images/Error_4.png) <br> | Fail   |   |
 |  9 | Error  | Error <br> ![image](Images/Error_5.png) <br> | Fail   |   |
 
-Exercice 2
+zExercice 2
 
 Test Run using bin/test:
  <br> Before writing my tests<br>
