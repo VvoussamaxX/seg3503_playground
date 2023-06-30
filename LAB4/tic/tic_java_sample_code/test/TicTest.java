@@ -43,34 +43,34 @@ class TicTest {
 	void test6(){
         Tic board = new Tic(2 ,3);
         board.board[1][0]="X";
-		assertEquals(true,board.isempty(2,3));
+		assertEquals(false,board.isempty(2,3));
 	}
 
     @Test
 	void test7(){
         Tic board = new Tic(2 ,3);
         board.board[1][1]="X";
-		assertEquals(true,board.isempty(2,3));
+		assertEquals(false,board.isempty(2,3));
 	}
 
     @Test
 	void test8(){
         Tic board = new Tic(2 ,3);
         board.board[0][1]="X";
-		assertEquals(true,board.isempty(2,3));
+		assertEquals(false,board.isempty(2,3));
 	}
 
     @Test
 	void test9(){
         Tic board = new Tic(2 ,3);
         board.board[0][0]="X";
-		assertEquals(true,board.isempty(2,3));
+		assertEquals(false,board.isempty(2,3));
 	}
 
     @Test
 	void test10(){
         Tic board = new Tic(2 ,3);
         board.board[1][2]="X";
-		assertEquals(true,board.isempty(2,3));
+		assertEquals(false,board.isempty(2,3));
 	}
 }

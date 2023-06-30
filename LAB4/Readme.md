@@ -1,4 +1,4 @@
-<br>My first commit shows that all the test failed and then i commited the second time to show that the test passed<br>
+<br>For my part, My tests are used to make sure that the function is empty actually works, the first commit shows that all my test failed and then i commited the second time to show that all test passed<br>
 
 <br>Test failing<br>
  <br> ![image](images/1.png) <br>
