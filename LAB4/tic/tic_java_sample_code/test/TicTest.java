@@ -73,4 +73,6 @@ class TicTest {
         board.board[1][2]="X";
 		assertEquals(false,board.isempty(2,3));
 	}
+
+    
 }

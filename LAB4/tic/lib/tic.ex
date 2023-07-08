@@ -27,3 +27,4 @@ defmodule Tic do
   defp to_string_cell(index, true), do: "#{index}"
   defp to_string_cell(_, _), do: "_"
 end
+

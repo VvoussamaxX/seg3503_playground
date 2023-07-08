@@ -34,6 +34,7 @@ public class Tic {
 					sup = false;
 					break;
 				}
+
 			}
 		}
 		return sup;
