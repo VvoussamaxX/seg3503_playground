@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.3.0" sequence="0" timestamp="1691117951844" analysisTimestamp="1691118481468" release="">
+  <Project projectName="bugfixer-Anas">
+    <Jar>C:\Users\anas1\OneDrive\Bureau\university\SEG3503\seg3503_playground\lab7\calculator\dist</Jar>
+    <SrcDir>C:\Users\anas1\OneDrive\Bureau\university\SEG3503\seg3503_playground\lab7\calculator\src</SrcDir>
+  </Project>
+  <Errors errors="2" missingClasses="0">
+    <Error>
+      <ErrorMessage>Error scanning CalCFrame$1 for referenced classes</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 64</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:199)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:806)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:249)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.gui2.BugLoader.doAnalysis(BugLoader.java:101)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.gui2.AnalyzingDialog$AnalysisThread.run(AnalyzingDialog.java:257)</StackTrace>
+    </Error>
+    <Error>
+      <ErrorMessage>Error scanning CalcFrameTest for referenced classes</ErrorMessage>
+      <Exception>java.lang.IllegalArgumentException: Unsupported class file major version 64</Exception>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:199)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:180)</StackTrace>
+      <StackTrace>org.objectweb.asm.ClassReader.&lt;init&gt;(ClassReader.java:166)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.asm.FBClassReader.&lt;init&gt;(FBClassReader.java:35)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:48)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.asm.ClassReaderAnalysisEngine.analyze(ClassReaderAnalysisEngine.java:34)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:75)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine.analyze(ClassInfoAnalysisEngine.java:38)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.classfile.impl.AnalysisCache.getClassAnalysis(AnalysisCache.java:261)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.buildReferencedClassSet(FindBugs2.java:806)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.FindBugs2.execute(FindBugs2.java:249)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.gui2.BugLoader.doAnalysis(BugLoader.java:101)</StackTrace>
+      <StackTrace>edu.umd.cs.findbugs.gui2.AnalyzingDialog$AnalysisThread.run(AnalyzingDialog.java:257)</StackTrace>
+    </Error>
+  </Errors>
+  <FindBugsSummary timestamp="Thu, 3 Aug 2023 22:59:11 -0400" total_classes="3" referenced_classes="284" total_bugs="0" total_size="238" num_packages="1" java_version="1.8.0_381" vm_version="25.381-b09" cpu_seconds="5.06" clock_seconds="125.14" peak_mbytes="429.99" alloc_mbytes="3573.50" gc_seconds="0.01">
+    <PackageStats package="" total_bugs="0" total_types="3" total_size="238">
+      <ClassStats class="CalCFrame" sourceFile="CalCFrame.java" interface="false" size="225" bugs="0"/>
+      <ClassStats class="CalCFrame$CustomWindowAdapter" sourceFile="CalCFrame.java" interface="false" size="6" bugs="0"/>
+      <ClassStats class="Main" sourceFile="Main.java" interface="false" size="7" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="767" invocations="1489" avgMicrosecondsPerInvocation="515" maxMicrosecondsPerInvocation="1257" standardDeviationMicrosecondsPerInvocation="79"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="120" invocations="1485" avgMicrosecondsPerInvocation="81" maxMicrosecondsPerInvocation="2909" standardDeviationMicrosecondsPerInvocation="175"/>
+      <ClassProfile name="edu.umd.cs.findbugs.FindBugs2" totalMilliseconds="62" invocations="2" avgMicrosecondsPerInvocation="31199" maxMicrosecondsPerInvocation="33100" standardDeviationMicrosecondsPerInvocation="1893"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="47" invocations="284" avgMicrosecondsPerInvocation="167" maxMicrosecondsPerInvocation="1946" standardDeviationMicrosecondsPerInvocation="286"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
